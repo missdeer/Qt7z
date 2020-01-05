@@ -1,9 +1,12 @@
 SOURCES += \
-    $$PWD/*.cpp \
+    $$PWD/qt7zfileinfo.cpp \
+    $$PWD/qt7zpackage.cpp
     #$$PWD/7z/*.c 
 
 HEADERS += \
-    $$PWD/*.h \
+    $$PWD/qt7z_global.h \
+    $$PWD/qt7zfileinfo.h \
+    $$PWD/qt7zpackage.h
     #$$PWD/7z/*.h
 
 INCLUDEPATH += \
