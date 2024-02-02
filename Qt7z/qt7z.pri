@@ -14,7 +14,7 @@ INCLUDEPATH += \
 
 DEFINES += QT7Z_STATIC
 win32: {
-    CONFIG += no-batch
+    CONFIG += no_batch
     DEFINES += QT7Z_STATIC_LINK \
                 UNICODE \
                 _UNICODE \
