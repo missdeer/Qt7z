@@ -19,5 +19,7 @@ set(LIB_DESTINATION "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}" CACHE STRING "Lib
 
 add_subdirectory(Qt7z)
 
+if (NOT DEFINED QT7z_NO_TEST)
 enable_testing()
 add_subdirectory(Qt7zTest)
+endif()
